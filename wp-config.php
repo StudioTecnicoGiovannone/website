@@ -22,7 +22,7 @@
  *
  * @package WordPress
  */
-
+//define( 'WP_DEBUG', true);
 // ** Impostazioni MySQL - È possibile ottenere queste informazioni dal proprio fornitore di hosting ** //
 /** Il nome del database di WordPress */
 define('DB_NAME', 'u355416720_wp');
@@ -34,7 +34,7 @@ define('DB_USER', 'u355416720_wp');
 define('DB_PASSWORD', 'u355416720_wp');
 
 /** Hostname MySQL  */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** Charset del Database da utilizzare nella creazione delle tabelle. */
 define('DB_CHARSET', 'utf8mb4');
