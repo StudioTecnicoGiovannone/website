@@ -1,5 +1,20 @@
 Changelog
 
+5 Aug 2016 - 1.31
+- masonry compatibility with WP 4.6
+
+3 June 2016 - 1.30
+- release consists of version 1.29 plus a few minor changes to the portfolio. 
+
+18 May 2016 - 1.29 (unreleased version)
+- merged the Sydney Portfolio plugin into the theme as a widget.
+
+26 April 2016 - 1.28
+- numeric inputs styling fix.
+
+13 April 2016 - 1.27
+- fix for smooth scroll incompatibility with WP 4.5.
+
 20 March 2016 - 1.26
 - fixed slider synch issue. Slider structure completely changed;
 - posts navigation fix for mobiles;

@@ -71,7 +71,6 @@ function sydney_customize_register( $wp_customize ) {
                 'min'   => 0,
                 'max'   => 160,
                 'step'  => 1,
-                'style' => 'margin-bottom: 15px; padding: 15px;',
             ),            
         )
     );
@@ -95,7 +94,6 @@ function sydney_customize_register( $wp_customize ) {
                 'min'   => 0,
                 'max'   => 160,
                 'step'  => 1,
-                'style' => 'margin-bottom: 15px; padding: 15px;',
             ),            
         )
     );
@@ -678,7 +676,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 250,
             'max'   => 600,
             'step'  => 5,
-            'style' => 'margin-bottom: 15px; padding: 15px;',
         ),
     ) );
     //Disable overlay
@@ -836,13 +833,12 @@ function sydney_customize_register( $wp_customize ) {
         'type'        => 'number',
         'priority'    => 16,
         'section'     => 'blog_options',
-        'label'       => __('Excerpt lenght', 'sydney'),
+        'label'       => __('Excerpt length', 'sydney'),
         'description' => __('Choose your excerpt length. Default: 55 words', 'sydney'),
         'input_attrs' => array(
             'min'   => 10,
             'max'   => 200,
             'step'  => 5,
-            'style' => 'padding: 15px;',
         ),
     ) );
     //Meta
@@ -1113,7 +1109,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 90,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) ); 
     // Site description
@@ -1133,7 +1128,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 50,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) );  
     // Nav menu
@@ -1153,7 +1147,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 50,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) );           
     //H1 size
@@ -1173,7 +1166,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 60,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) );
     //H2 size
@@ -1193,7 +1185,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 60,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) );
     //H3 size
@@ -1213,7 +1204,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 60,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) );
     //H4 size
@@ -1233,7 +1223,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 60,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) );
     //H5 size
@@ -1253,7 +1242,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 60,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) );
     //H6 size
@@ -1273,7 +1261,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 60,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) );
     //Body
@@ -1293,7 +1280,6 @@ function sydney_customize_register( $wp_customize ) {
             'min'   => 10,
             'max'   => 24,
             'step'  => 1,
-            'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
     ) );
 
