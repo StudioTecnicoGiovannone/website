@@ -1,0 +1,15 @@
+Primary  	#d65050
+menu background	#000000
+site title	#ffffff
+site desc	#ffffff
+submenu items	#ffffff
+submenu back	#000000
+slider text	#000000
+body text	#767676
+sider back	#000000
+sidebar color	#767676
+footer widget area background 	#252525
+footer widget area color 	#767676
+footer background		#1c1c1c
+footer color 	#666666
+rows overlay	#000000
