@@ -1,12 +1,20 @@
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /studio_tecnico/
+
+#rewrite in base all'host di connessione
+
+RewriteRule . - [E=rwbase:/]
+RewriteCond %{HTTP_HOST} localhost$
+RewriteRule . - [E=rwbase:/studio_tecnico/]
+
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /studio_tecnico/index.php [L]
+
+# rewrite in base alla variabile calcolata in precedenza
+RewriteRule . /%{ENV:rwbase}index.php [L]
+
 </IfModule>
 
 # END WordPress
